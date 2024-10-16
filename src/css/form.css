@@ -1,0 +1,30 @@
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+}
+
+form input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  min-width: 272px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  max-width: 272px;
+  font-weight: 400;
+  font-size: inherit;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #808080;
+}
+
+form > input:focus,
+form > input:active {
+  border-color: #4e75ff;
+  color: #2e2f42;
+  outline: none;
+}
